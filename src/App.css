@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    padding: 50px;
+    color: #f7f7f7;
+    min-height: 100vh;
+    background: #252525;
+    text-rendering: optimizeSpeed;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .app {
+    padding: 1rem;
+  max-width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  background: #333;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 5px;
+  }
+  
+  .app .mainHeading h1 {
+    text-align: center;
+    font-weight: 300;
+  color: #44c0b6;
+  font-size: 2.5rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  }
+  
+  .app h1,
+  h2 {
+    color: white;
+  }
+  
+  .app .input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .app .input {
+    margin-top: 0.8em;
+    width: 38em;
+    height: 2em;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    padding: 5px;
+  }
+  
+  .app .input input {
+    width: 100%;
+    height: 1.6em;
+    border-color: transparent;
+    outline-color: transparent;
+  }
+  
+  .app i {
+    cursor: pointer;
+    font-size: larger;
+    font-weight: 900;
+    color: grey;
+    margin-right: 5px;
+  }
+  .app .todos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .app .todos .todo {
+    margin-top: 0.8em;
+    width: 38em;
+    height: 2em;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    padding: 5px;
+  }
+  .app .todos .todo .left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .app .todos .todo .left p {
+    margin-left: 3px;
+    font-size: medium;
+    font-weight: 700;
+    font-style: normal;
+    color: grey;
+  }
